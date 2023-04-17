@@ -1,0 +1,36 @@
+section#hero{
+	width: 100vw;
+	min-height: 100vh;
+	background-image: url("../img/hero_home.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#hero .content h1{
+	font-size: 6vw;
+}
+#hero .content h1:after{
+	content: '';
+	width: 20%;
+	margin: 3vh auto;
+	background-color: var(--pri);
+	height: 3px;
+	border-radius: 2px;
+	position: relative;
+	display: block;
+}
+#offer .title{
+	text-align: center;
+}
+#offer .title p{
+	font-size: 3vw;
+}
+#offer .title h1{
+	/*font-size: 3vw;*/
+}
+#hand-offer{
+	background-color: #358d39;
+}
+#top-dollar{
+	background-color: #063271;
+}
