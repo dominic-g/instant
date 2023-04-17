@@ -1,3 +1,6 @@
+.txt-cen{
+	text-align: center;
+}
 section#hero{
 	width: 100vw;
 	min-height: 100vh;
@@ -19,8 +22,12 @@ section#hero{
 	position: relative;
 	display: block;
 }
+#offer{
+	margin-bottom: 10vh;
+}
 #offer .title{
 	text-align: center;
+	margin-bottom: 10vh;
 }
 #offer .title p{
 	font-size: 3vw;
@@ -30,7 +37,88 @@ section#hero{
 }
 #hand-offer{
 	background-color: #358d39;
+	margin-bottom: 1vw;
 }
 #top-dollar{
+	margin-top: 1vw;
 	background-color: #063271;
+}
+#offer .form{
+	color: #fff;
+}
+
+#offer .form .h2{
+	font-size: 23px;
+	font-weight: 700;
+	margin: 0px 0px 0px;
+}
+#offer .form .h2.long{
+	/*	margin-top: 0px;*/
+}
+#offer .form .price{
+	font-size: 52px;
+	font-weight: 500;
+}
+#offer .form .btn{
+	font-size: 20px;
+	font-weight: 700;
+	background-color: rgb(55, 202, 55);
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+}
+#offer .form svg{
+	border-radius: 100%;
+	padding: 5px;
+}
+#offer .form  #hand-offer .btn, #offer .form  #hand-offer svg{
+	background-color: #58b759;
+}
+#offer .form  #top-dollar .btn,#offer .form  #top-dollar svg{
+	background-color: #1d59a2;
+}
+
+#offer .form .row>.col-md-6{
+	padding: 5vw 0px;
+}
+#offer .form .row .second{
+	padding-left: 10%;
+
+}
+#offer .form .row.card-cont{
+	margin: 5vh 0px;
+}
+#offer .form .buttons{
+	padding-top: 20px;
+}
+#offer .right-border{
+	border-right: 1px solid #fff;
+}
+
+@media (max-width:767px){
+	
+    .row.rowtwo{
+    	margin-bottom: 40px;
+    	/*border-top: 2px solid aliceblue;*/
+    }
+    #offer .right-border{
+    	border-right: 0px solid transparent;
+    	border-bottom: 1px solid #fff;
+    }
+    .form .h2.long{
+		margin-top: 30px;
+		width: 80%;
+		margin-left: 10%;
+	}
+	#offer .form .row .second{
+		padding-left: 0%;
+		text-align: center;
+	}
+	#offer .form .h2.long{
+		width: 100%;
+	}
+	#offer .form {
+	  margin-right: calc(var(--bs-gutter-x) * .5);
+	  margin-left: calc(var(--bs-gutter-x) * .5);
+	}
 }
