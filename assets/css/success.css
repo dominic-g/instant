@@ -1,0 +1,20 @@
+.txt-cen{
+	text-align: center;
+}
+section#hero{
+	width: 100vw;
+	min-height: 100vh;
+	background-image: url("../img/success.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section#message {
+  padding: 10vw 5vw;
+}
+#hero .content p, #message p {
+  font-size: 3.5vw;
+}
+#message {
+	text-align: center;
+}
