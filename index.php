@@ -65,6 +65,15 @@
 									<label for="zip">ZIP:</label>
 									<input required type="text" name="zip" id="zip">
 								</div>
+								<div class="row">
+									<!-- <label for="zip">Condition:</label> -->
+									<select required type="text" name="condition" id="Condition">
+										 <option value="" selected disabled hidden>Condition: </option> 
+										<option value="new">New</option>
+										<option value="slight">Slightly Used</option>
+										<option value="old">Old</option>
+									</select>
+								</div>
 							</div>
 
 							<div class="submit">

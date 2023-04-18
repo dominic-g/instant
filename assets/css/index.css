@@ -90,7 +90,7 @@ body p{
 	align-items: center;
 	padding: 0px 25px;
 }
-#hero form.hero-form input{
+#hero form.hero-form input, #hero form.hero-form select{
 	font-size: 16px;
 	z-index: 2;
 	background-color: transparent;
@@ -100,11 +100,12 @@ body p{
 	border: 1px solid #cecdcd;
 	padding: 0px 25px;
 }
-#hero form.hero-form input:focus{
+#hero form.hero-form input:focus, #hero form.hero-form select:focus{
 	border: none;
 	outline: none;
 }
-#hero form.hero-form input:focus, #hero form.hero-form input:valid{
+#hero form.hero-form input:focus, #hero form.hero-form input:valid,
+#hero form.hero-form select:focus, #hero form.hero-form select:valid{
 	background-color: #fff;
 }
 
